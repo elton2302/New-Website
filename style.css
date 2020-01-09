@@ -283,9 +283,7 @@ nav ul li{
     .fa-phone{
         padding: 0px 0px 25px 125px;
         font-size: 2.5vw;
-        color: black;
-        font-weight:bold;
-        
+        color: whitesmoke;
     }
     
     header p{
@@ -444,7 +442,7 @@ header h1{
     background-position:center;
 	max-height: 100%;
 	max-width: 100%;
-        height: 750px;
+        height: 760px;
     
 }
     
@@ -578,8 +576,7 @@ header h1{
     .fa-phone{
         padding: 0px 0px 25px 125px;
         font-size: 3.5vw;
-        color: black;
-        font-weight:bold;
+        color: white;
         
     }
     
