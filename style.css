@@ -85,7 +85,7 @@ nav ul li{
 	background-size:cover;
     background-color: black;
     background-position:center;
-	height: 515px;
+	height: 80vh;
 	max-width: 100%;
     
 }
@@ -93,7 +93,7 @@ nav ul li{
 .section-home{
     max-width: 50%;
     float: left;
-    margin: 75px 0px 0px 250px;
+    margin: 85px 0px 0px 250px;
     padding:10px ;
     text-align:left;
     line-height: 3vw;
@@ -136,7 +136,7 @@ nav ul li{
      box-sizing: border-box; 
     
 }
-/* Extra footer style for all pages except home page*/
+
 .footer-1{
     bottom:auto;
 }
@@ -322,10 +322,14 @@ header h1{
     
 }
     
+    .container-img{
+        height: 85vh;
+    }    
+    
 .section-home{
     max-width: 80%;
     float: left;
-    margin: 75px 60px 0px 80px;
+    margin: 155px 60px 0px 80px;
     padding:10px ;
     text-align:left;
     line-height: 5vw;
@@ -363,17 +367,25 @@ header h1{
     line-height: 5vw;
     white-space: normal;
     font-size: 3vw;
-   
     
-}
+     }
+   
+    .gallery{
+        margin-bottom: 185px
+    }
+
+    .price-img{
+       height: 80vh; 
+    }
+    
      .price{
     width: 70%;
-    height: 370px;
+    height: 470px;
     border-radius: 50px;
     background-color: rgba(255,255,255,0.8);
     max-width: 70%;
     margin-left: 100px;
-    margin-top: -5px;
+    margin-top: 55px;
     font-size: 3vw;
     
 }   
@@ -383,15 +395,18 @@ header h1{
     background-size: cover;
     background-blend-mode: normal;
     width: 70%;
-    height: 350px;
+    height: 450px;
     border-radius: 50px;
     background-color: rgba(255,255,255,0.8);
     max-width: 70%;
-    margin: 0px 0px 0px 100px;
+    margin: 50px 0px 0px 100px;
     padding: 30px 0px 0px 30px;
     line-height: 35px;
     font-size: 3vw;
 }
+    .contact-img{
+        height: 80vh;
+    }
 
      }
 
@@ -440,7 +455,7 @@ header h1{
 	background-size:cover;
     background-color: black;
     background-position:center;
-	height: 100vh;
+	height: 115vh;
 	max-width: 100%;
     
     
@@ -520,7 +535,7 @@ header h1{
 }
      .price{
     width: 70%;
-    height: 60vh;
+    height: 65%;
     border-radius: 50px;
     background-color: rgba(255,255,255,0.8);
     max-width: 70%;
@@ -531,11 +546,17 @@ header h1{
     font-size: 4vw;
     
 }  
-    
+ 
     .price-img{
-        height: 100vh;
-    }
-    
+    background-image:url(img/price-img.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+    background-color: black;
+	max-width: 100%;
+    height: 80vh;
+
+}
         .price-head{
         text-decoration: underline;
     }
