@@ -446,7 +446,9 @@ header h1{
     
 }
 
-   
+    .container{
+        height: 100vh;
+    }
     .container-img{
 
     background-image:url(img/backgroundnew1.jpg);
@@ -465,7 +467,6 @@ header h1{
     width: 65%;
     max-height: 100%;
     float: left;
-    margin: 85px 80px 0px 80px;
     padding:10px ;
     margin: 110px 250px 0px 50px;
     padding: 30px ;
